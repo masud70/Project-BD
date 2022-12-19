@@ -1,0 +1,40 @@
+{
+    "name": "Project_BD",
+    "version": "0.1.0",
+    "license": "MIT",
+    "author": "CU Senku Shah",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "export": "next build && next export",
+        "start": "next start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/masud70/Project_BD.git"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.10.5",
+        "@emotion/styled": "^11.10.5",
+        "@mui/icons-material": "^5.11.0",
+        "@mui/material": "^5.11.0",
+        "@mui/x-data-grid": "^5.17.16",
+        "copy-webpack-plugin": "^11.0.0",
+        "csvtojson": "^2.0.10",
+        "dayjs": "^1.11.7",
+        "firebase": "^9.15.0",
+        "leaflet": "^1.9.3",
+        "next": "^13.0.7",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.7.1",
+        "react-leaflet": "^4.2.0",
+        "sass": "^1.57.0",
+        "sweetalert": "^2.1.2"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.13",
+        "postcss": "^8.4.20",
+        "tailwindcss": "^3.2.4"
+    }
+}

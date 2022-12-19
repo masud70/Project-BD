@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-container {
+    height: 80vh !important;
+    width: 100% !important;
+}
+
+* {
+    aspect-ratio: none !important;
+}
+.leaflet-popup-content {
+    width: 90% !important;
+}
+.css-xa4i53-MuiStack-root {
+    width: 100% !important;
+}
+*{
+    aspect-ratio:0 !important;
+}
